@@ -1,0 +1,117 @@
+[10:17:24] Hello, World!
+[10:49:03] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[10:49:07] 
+    drop table if exists test cascade
+[10:49:08] 
+    drop sequence hibernate_sequence
+[10:49:08] create sequence hibernate_sequence start 1 increment 1
+[10:49:08] 
+    create table test (
+        id int8 not null,
+        name varchar(255),
+        primary key (id)
+    )
+[10:49:08] 
+    alter table test 
+        add constraint UK_1chowmbf27f0cbp7on9ysvhjo unique (name)
+[10:49:08] 
+    select
+        nextval ('hibernate_sequence')
+[10:49:08] 
+    /* insert mc.hibernatetutorial.model.TestEntity
+        */ insert 
+        into
+            test
+            (name, id) 
+        values
+            (?, ?)
+[10:49:08] binding parameter [1] as [VARCHAR] - [super foo]
+[10:49:08] binding parameter [2] as [BIGINT] - [1]
+[10:58:14] starting application....
+[10:58:14] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[10:59:43] starting application....
+[10:59:43] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[10:59:45] 
+    drop table if exists test cascade
+[10:59:45] 
+    drop sequence hibernate_sequence
+[10:59:45] create sequence hibernate_sequence start 1 increment 1
+[10:59:45] 
+    create table test (
+        id int8 not null,
+        name varchar(255),
+        primary key (id)
+    )
+[10:59:45] 
+    alter table test 
+        add constraint UK_1chowmbf27f0cbp7on9ysvhjo unique (name)
+[10:59:45] 
+    select
+        nextval ('hibernate_sequence')
+[10:59:45] 
+    /* insert mc.hibernatetutorial.model.TestEntity
+        */ insert 
+        into
+            test
+            (name, id) 
+        values
+            (?, ?)
+[10:59:45] binding parameter [1] as [VARCHAR] - [super foo]
+[10:59:45] binding parameter [2] as [BIGINT] - [1]
+[11:39:11] starting application....
+[11:39:11] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[11:39:14] 
+    drop table if exists test cascade
+[11:39:14] 
+    drop sequence hibernate_sequence
+[11:39:14] create sequence hibernate_sequence start 1 increment 1
+[11:39:14] 
+    create table test (
+        id int8 not null,
+        name varchar(255),
+        primary key (id)
+    )
+[11:39:14] 
+    alter table test 
+        add constraint UK_1chowmbf27f0cbp7on9ysvhjo unique (name)
+[11:39:14] 
+    select
+        nextval ('hibernate_sequence')
+[11:39:14] 
+    /* insert mc.hibernatetutorial.model.TestEntity
+        */ insert 
+        into
+            test
+            (name, id) 
+        values
+            (?, ?)
+[11:39:14] binding parameter [1] as [VARCHAR] - [super foo]
+[11:39:14] binding parameter [2] as [BIGINT] - [1]
+[12:50:01] Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[12:50:04] 
+    drop table if exists test cascade
+[12:50:04] 
+    drop sequence hibernate_sequence
+[12:50:04] create sequence hibernate_sequence start 1 increment 1
+[12:50:04] 
+    create table test (
+        id int8 not null,
+        name varchar(255),
+        primary key (id)
+    )
+[12:50:04] 
+    alter table test 
+        add constraint UK_1chowmbf27f0cbp7on9ysvhjo unique (name)
+[12:50:05] 
+    select
+        nextval ('hibernate_sequence')
+[12:50:05] 
+    /* insert mc.hibernatetutorial.model.TestEntity
+        */ insert 
+        into
+            test
+            (name, id) 
+        values
+            (?, ?)
+[12:50:05] binding parameter [1] as [VARCHAR] - [super foo]
+[12:50:05] binding parameter [2] as [BIGINT] - [1]
