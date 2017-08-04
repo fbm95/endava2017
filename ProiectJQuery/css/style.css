@@ -1,0 +1,36 @@
+.colors {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.colors div {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 100px;
+	transition: ease all .5s;
+}
+.colors div .white{
+	color: white;
+	font-size: 20px;
+	line-height: 30px;
+}
+.colors .red {
+	background-color: red;
+}
+.colors .purple {
+	background-color: purple;
+	height: 200px;
+}
+.colors .blue {
+	background-color: blue;
+	height: 50px;
+}
+.colors .green {
+	background-color: green;
+	height: 125px;
+}
+.colors .grey {
+	background-color: grey;
+	height: 125px;
+}
